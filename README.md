@@ -1,27 +1,13 @@
-# RxjsExperiments
+# RxJS Gotcha Examples
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.9.
+These are some RxJS gotchas or things about RxJS that may not be obvious.
+You can clone or download this code, `npm install`, and then `ng serve` to
+try it out. You'd want to update `app.component.html` to switch to the example
+you want to test out. The examples are:
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* [multiple-subs](src/app/multiple-subs/multiple-subs.component.ts)
+* [share-replay-cleanup](src/app/share-replay-cleanup/share-replay-cleanup.component.ts)
+* [share-replay-clean-two](src/app/share-replay-clean-two/share-replay-clean-two.component.ts)
+* [cold-to-hot](src/app/cold-to-hot/cold-to-hot.component.ts)
+* [data-flow-loop](src/app/data-flow-loop/data-flow-loop.component.ts)
+* [infinite-loop](src/app/infinite-loop/infinite-loop.component.ts)

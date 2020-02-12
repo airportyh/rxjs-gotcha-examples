@@ -1,0 +1,9 @@
+<h2>Share Replay Cleanup Test Two</h2>
+<app-user-details
+    *ngIf="showDetails"
+    [userDetails$]="userDetails$">
+</app-user-details>
+<br/>
+<input [ngModel]="username$ | async" (ngModelChange)="changeUsername($event)"/>
+<button (click)="showDetails = !showDetails">Toggle</button>
+<pre><ng-container *ngFor="let line of log">{{line}}<br/></ng-container></pre>

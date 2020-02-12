@@ -1,0 +1,11 @@
+<h2>Multiple Subscribers Test</h2>
+
+<!-- we have one subscriber per use of the async pipe below --->
+<p>{{ obs$ | async }}</p>
+<p>{{ obs$ | async }}</p>
+<p>{{ obs$ | async }}</p>
+<p>{{ obs$ | async }}</p>
+<p>{{ obs$ | async }}</p>
+
+<button (click)="emitEvent()">Emit</button>
+<pre><span *ngFor="let line of log">{{line}}<br/></span></pre>
