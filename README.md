@@ -11,3 +11,4 @@ you want to test out. The examples are:
 * [cold-to-hot](src/app/cold-to-hot/cold-to-hot.component.ts)
 * [data-flow-loop](src/app/data-flow-loop/data-flow-loop.component.ts)
 * [infinite-loop](src/app/infinite-loop/infinite-loop.component.ts)
+* [repeat](src/app/repeat/repeat.component.ts)

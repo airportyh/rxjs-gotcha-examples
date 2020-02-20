@@ -10,6 +10,8 @@ import { ShareReplayCleanTwoComponent } from './share-replay-clean-two/share-rep
 import { UserDetailsComponent } from "./share-replay-clean-two/user-details.component";
 import { InfiniteLoopComponent } from './infinite-loop/infinite-loop.component';
 import { PhoneFieldComponent } from "./infinite-loop/phone-field.component";
+import { RepeatComponent } from './repeat/repeat.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,11 +23,13 @@ import { PhoneFieldComponent } from "./infinite-loop/phone-field.component";
     ShareReplayCleanTwoComponent,
     UserDetailsComponent,
     InfiniteLoopComponent,
-    PhoneFieldComponent
+    PhoneFieldComponent,
+    RepeatComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
