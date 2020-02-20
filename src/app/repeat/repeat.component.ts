@@ -81,6 +81,9 @@ export class RepeatComponent implements OnInit {
       // is really surprising, I am interested in understand how it does this.
       // In general, keep in mind that when you come across the repeat operator
       // or one of its cousin retry, some serious black magic is being deployed.
+      //
+      // Also, if you pass out a cold observable, it the request within in
+      // could potentially be issued many times.
       this.subject.pipe(
           // Each time you click the "Next" button, you'll see in the network
           // panel that a new request gets issued.
