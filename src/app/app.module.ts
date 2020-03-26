@@ -12,6 +12,7 @@ import { InfiniteLoopComponent } from './infinite-loop/infinite-loop.component';
 import { PhoneFieldComponent } from "./infinite-loop/phone-field.component";
 import { RepeatComponent } from './repeat/repeat.component';
 import { HttpClientModule } from '@angular/common/http';
+import { WithLatestFromComponent } from './with-latest-from/with-latest-from.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HttpClientModule } from '@angular/common/http';
     UserDetailsComponent,
     InfiniteLoopComponent,
     PhoneFieldComponent,
-    RepeatComponent
+    RepeatComponent,
+    WithLatestFromComponent
   ],
   imports: [
     BrowserModule,

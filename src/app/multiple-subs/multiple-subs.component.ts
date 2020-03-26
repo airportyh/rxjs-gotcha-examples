@@ -42,7 +42,7 @@ export class MultipleSubsComponent {
 
   async calculate(x: number): Promise<number> {
       // pushing a line to the log to display it in the UI
-      this.log.push("calculating for" + x);
+      this.log.push("calculating for " + x);
       // This could potentially make a request to an api
       // or simple do some local data crunching.
       return x * x;
